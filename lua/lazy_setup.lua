@@ -30,3 +30,12 @@ require("lazy").setup({
     },
   },
 } --[[@as LazyConfig]])
+
+require("telescope").setup {
+  defaults = {
+    file_ignore_patterns = {
+      "node_modules",
+      "dist",
+    },
+  },
+}

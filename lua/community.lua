@@ -9,5 +9,6 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.angular" }
+  { import = "astrocommunity.pack.angular" },
+  { import = "astrocommunity.git" },
 }
